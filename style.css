@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap");
+
 button:focus,
 textarea:focus,
 input:focus {
@@ -5,6 +7,8 @@ input:focus {
 }
 body {
   color: #282a37;
+  margin: 0;
+  font-family: 'Manjari', sans-serif;
 }
 button {
   all: unset;
