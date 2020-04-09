@@ -8,7 +8,7 @@ input:focus {
 body {
   color: #282a37;
   margin: 0;
-  font-family: 'Manjari', sans-serif;
+  font-family: "Manjari", sans-serif;
 }
 button {
   all: unset;
@@ -229,35 +229,30 @@ button {
 .g-section-title-secondary {
   font-size: 2rem;
   margin: 24px;
-  text-transform: capitalize;
   text-decoration: underline;
   text-decoration-color: #02d4ff;
 }
 .g-section-title-primary {
   font-size: 2rem;
   margin: 24px;
-  text-transform: capitalize;
   text-decoration: underline;
   text-decoration-color: #21ba45;
 }
 .g-section-title-detail {
   font-size: 2rem;
   margin: 24px;
-  text-transform: capitalize;
   text-decoration: underline;
   text-decoration-color: #9223be;
 }
 .g-section-title-warning {
   font-size: 2rem;
   margin: 24px;
-  text-transform: capitalize;
   text-decoration: underline;
   text-decoration-color: #ff8400;
 }
 .g-section-title-danger {
   font-size: 2rem;
   margin: 24px;
-  text-transform: capitalize;
   text-decoration: underline;
   text-decoration-color: #ff4141;
 }
