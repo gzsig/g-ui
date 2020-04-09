@@ -237,7 +237,6 @@ button {
   transition: all 0.5s ease-in-out, width 0s ease-in-out, height 0s ease-in-out;
 }
 .g-modal > .g-card {
-  position: relative;
   text-align: justify;
   padding-bottom: 60px;
 }
