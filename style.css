@@ -381,6 +381,47 @@ html {
   top: 0;
   width: 100%;
   z-index: 1;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+.g-sticky-primary {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #21ba45;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+.g-sticky-secondary {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #02d4ff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+.g-sticky-detail {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #9223be;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+.g-sticky-warning {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #ff8400;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+.g-sticky-danger {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #ff4141;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
 

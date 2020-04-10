@@ -5,15 +5,15 @@ window.onscroll = () => {
 const stickNavbar = () => {
   if (document.getElementById("navbar-sticky")) {
     let navbar = document.getElementById("navbar-sticky");
+    let type = navbar.getAttribute('data-sticky')
     let sticky = navbar.offsetTop;
     if (window.pageYOffset > sticky) {
-      navbar.classList.add("g-sticky");
+      navbar.classList.add(type);
     } else {
-      navbar.classList.remove("g-sticky");
+      navbar.classList.remove(type);
     }
   }
 };
-
 
 const openModal = (event) => {
   event.nextSibling.classList.remove("g-fade-out");
