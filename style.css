@@ -421,7 +421,7 @@ html {
 }
 
 /* FORM START ================================== */
-.group {
+.g-group {
   position: relative;
   margin-bottom: 45px;
 }
@@ -512,13 +512,13 @@ input:focus ~ .highlight {
 }
 
 /* BOTTOM BARS ================================= */
-.bar {
+.g-bar {
   position: relative;
   display: block;
   width: 300px;
 }
-.bar:before,
-.bar:after {
+.g-bar:before,
+.g-bar:after {
   content: "";
   height: 2px;
   width: 0;
@@ -529,15 +529,15 @@ input:focus ~ .highlight {
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
 }
-.bar:before {
+.g-bar:before {
   left: 50%;
 }
-.bar:after {
+.g-bar:after {
   right: 50%;
 }
 
 /* HIGHLIGHTER ================================== */
-.highlight {
+.g-highlight {
   position: absolute;
   height: 60%;
   width: 100px;
