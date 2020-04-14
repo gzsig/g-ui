@@ -16,9 +16,10 @@
           style="background-image: url(./g-ui.png);"
         ></div>
         <div class="g-nav-items">
-          <a class="g-nav-item" href="#buttons">buttons</a>
-          <a class="g-nav-item" href="#cards">cards</a>
+          <a class="g-nav-item" href="#button">button</a>
+          <a class="g-nav-item" href="#card">card</a>
           <a class="g-nav-item" href="#grid">grid</a>
+          <a class="g-nav-item" href="#form">form</a>
         </div>
       </div>
     </div>
@@ -40,8 +41,8 @@
           See Code
         </button>
       </div>
-      <div id="buttons">
-        <div class="g-header2">Buttons</div>
+      <div id="button">
+        <div class="g-header2">Button</div>
         <div class="g-flex-auto-center">
           <button class="g-button g-button-primary">g-button-primary</button>
           <button class="g-button g-button-secondary">
@@ -52,8 +53,8 @@
           <button class="g-button g-button-danger">g-button-danger</button>
         </div>
       </div>
-      <div id="cards">
-        <div class="g-header2">Cards</div>
+      <div id="card">
+        <div class="g-header2">Card</div>
         <div class="g-flex-auto-center">
           <div class="g-card g-card-sm">g-card-sm</div>
           <div class="g-card g-card-md">g-card-md</div>
@@ -84,6 +85,40 @@
             <div class="g-col-1">
               <div class="g-card">g-col-1</div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div id="form">
+        <div class="g-header2">Form</div>
+        <div class="g-flex-auto-center">
+          <div class="g-card g-card-lg">
+            <div class="g-group">
+              <input
+                type="text"
+                id="example-input-1"
+                autocomplete="off"
+                required
+              />
+              <span class="g-highlight"></span>
+              <span class="g-bar"></span>
+              <label for="example-input-1">name</label>
+            </div>
+            <div class="g-group">
+              <select id="example-group-picker" required>
+                <option value="null" disabled selected>choose</option>
+                <option value="1">option 1</option>
+                <option value="2">option 2</option>
+                <option value="3">option 3</option>
+              </select>
+              <span class="g-highlight"></span>
+              <span class="g-bar"></span>
+              <label for="example-group-picker"
+                >Selecione o # do seu grupo</label
+              >
+            </div>
+            <button class="g-button g-button-primary">
+              Save
+            </button>
           </div>
         </div>
       </div>
