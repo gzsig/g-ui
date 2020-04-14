@@ -468,13 +468,13 @@ select:valid ~ label {
 }
 
 /* active state */
-select:focus ~ .bar:before,
-select:focus ~ .bar:after {
+select:focus ~ .g-bar:before,
+select:focus ~ .g-bar:after {
   width: 50%;
 }
 
 /* active state */
-select:focus ~ .highlight {
+select:focus ~ .g-highlight {
   -webkit-animation: inputHighlighter 0.3s ease;
   -moz-animation: inputHighlighter 0.3s ease;
   animation: inputHighlighter 0.3s ease;
@@ -499,13 +499,13 @@ input:valid ~ label {
 }
 
 /* active state */
-input:focus ~ .bar:before,
-input:focus ~ .bar:after {
+input:focus ~ .g-bar:before,
+input:focus ~ .g-bar:after {
   width: 50%;
 }
 
 /* active state */
-input:focus ~ .highlight {
+input:focus ~ .g-highlight {
   -webkit-animation: inputHighlighter 0.3s ease;
   -moz-animation: inputHighlighter 0.3s ease;
   animation: inputHighlighter 0.3s ease;
